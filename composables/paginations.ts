@@ -1,0 +1,1 @@
+export const getListPaginations = (list: any, page: number, visible_list_count: number) => list.filter((_: any, idx: number) => ++idx > page * visible_list_count - visible_list_count && idx <= page * visible_list_count)

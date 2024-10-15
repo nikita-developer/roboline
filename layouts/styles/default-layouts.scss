@@ -1,0 +1,10 @@
+.default-layouts {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  &__body {
+    flex-grow: 1;
+    display: flex;
+  }
+}

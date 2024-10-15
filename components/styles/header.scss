@@ -1,0 +1,23 @@
+.header {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #1967c0;
+  color: #fff;
+  font-weight: 700;
+  font-size: 22px;
+
+  &__body {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__basket {
+    cursor: pointer;
+    color: #ffffff;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: #ffffff;
+  }
+}
